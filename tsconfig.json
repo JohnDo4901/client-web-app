@@ -3,7 +3,6 @@
     "baseUrl": ".",
     "exactOptionalPropertyTypes": true,
     "forceConsistentCasingInFileNames": true,
-    "importsNotUsedAsValues": "error",
     "isolatedModules": true,
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
@@ -17,7 +16,9 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "paths": {
-      "~/*": ["./src/*"]
+      "~/*": [
+        "./src/*"
+      ]
     },
     "resolveJsonModule": true,
     "strict": true,
